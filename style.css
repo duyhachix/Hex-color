@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+body {
+	font-family: 'Abyssinica SIL', serif;
+}
+.container {
+	border: 1px solid black;
+	width: 95%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+.hex__colors {
+	/*padding: 5px;*/
+	position: absolute;
+	text-align: center;
+	border: 1px solid black;
+	width: 60%;
+}
+.hex__colors h1 {
+	animation: colorchange 5s ease-in infinite alternate;
+}
+.hex__colors h2 {
+	border: 1px solid;
+	margin-top: 20px;
+}
+.hex__colors button {
+	margin: 10px;
+}
+
+@keyframes colorchange {
+	0% {
+		color: brown;
+	}
+	10% {
+		color: rgb(236, 162, 0);
+	}
+	20% {
+		color: rgb(222, 226, 0);
+	}
+	30% {
+		color: rgb(6, 224, 6);
+	}
+	40% {
+		color: rgb(3, 226, 89);
+	}
+	50% {
+		color: rgb(7, 216, 206);
+	}
+	60% {
+		color: rgb(7, 78, 209);
+	}
+	70% {
+		color: rgb(135, 6, 240);
+	}
+	80% {
+		color: rgb(212, 10, 152);
+	}
+	90% {
+		color: rgb(0, 0, 0);
+	}
+}
